@@ -17,6 +17,8 @@
         <module>pgsainia-provider-pay-cloud02</module>
         <module>pgsainia-provider-pay-zk</module>
         <module>pgsainia-consumer-order-zk</module>
+        <module>pgsainia-provider-pay-consul</module>
+        <module>pgsainia-consumer-order-consul</module>
     </modules>
     <packaging>pom</packaging>
 

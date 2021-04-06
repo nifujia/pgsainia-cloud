@@ -9,3 +9,7 @@ pgsainia-provider-pay-cloud02: 8083
 
 pgsainia-provider-pay-zk: 8084
 pgsainia-consumer-order-zk: 81
+
+
+pgsainia-provider-pay-consul: 8085
+pgsainia-consumer-order-consul: 82
