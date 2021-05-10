@@ -48,4 +48,9 @@ public class PayCloudController {
         return this.discoveryClient;
     }
 
+    @RequestMapping("/cloud/myLb")
+    public String myLb() {
+        return "port:" + this.serverPort;
+    }
+
 }

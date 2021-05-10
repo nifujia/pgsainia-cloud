@@ -22,4 +22,9 @@ public class PayCloudController {
         return "cloud-server: cloud02, server-port: " + serverPort + "; id = " + id;
     }
 
+    @RequestMapping("/cloud/myLb")
+    public String myLb() {
+        return "port:" + this.serverPort;
+    }
+
 }
