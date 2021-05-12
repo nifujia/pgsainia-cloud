@@ -3,8 +3,8 @@ eureka:
     register-with-eureka: true
     fetchRegistry: true
     service-url:
-       defaultZone: http://localhost:7001/eureka
-#      defaultZone: http://eureka01.com:8001/eureka,http://eureka02.com:8002/eureka
+#     defaultZone: http://localhost:7001/eureka
+      defaultZone: http://eureka01.com:8001/eureka,http://eureka02.com:8002/eureka
   instance:
     instance-id: cloud-pay8083
     prefer-ip-address: true

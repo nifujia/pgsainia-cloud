@@ -19,6 +19,8 @@
         <module>pgsainia-consumer-order-zk</module>
         <module>pgsainia-provider-pay-consul</module>
         <module>pgsainia-consumer-order-consul</module>
+        <module>pgsainia-consumer-openfeign-order</module>
+        <module>pgsainia-consumer-openfeign-order</module>
     </modules>
     <packaging>pom</packaging>
 
